@@ -1673,7 +1673,7 @@ img {
 @keyframes FadeIn {
   from {
     opacity: 0;
-    transform: translateY(30px); }
+    transform: translateY(3rem); }
   to {
     opacity: 1;
     transform: translateY(0); } }
@@ -2990,7 +2990,7 @@ img {
   font-size: 1.8rem;
   line-height: 2rem;
   opacity: 0;
-  transform: translateX(50px); }
+  transform: translateX(5rem); }
   @media (min-width: 2000px) {
     .slider__item-text {
       margin-top: 36px;
@@ -3285,7 +3285,7 @@ img {
 
 .social-block:hover .social-block__link {
   opacity: 1;
-  transform: translateY(-5px); }
+  transform: translateY(-0.5rem); }
 
 .social-block__link {
   position: relative;
