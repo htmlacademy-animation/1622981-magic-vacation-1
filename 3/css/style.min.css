@@ -2934,12 +2934,15 @@ img {
 
 .screen-curtain {
   position: fixed;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: #5f458c;
-  z-index: 1;
   transition: transform ease-in-out 700ms;
   transform: translateY(100%); }
   .screen-curtain.--visible {
+    z-index: 1;
     transform: translateY(0%); }
 
 .slider {
